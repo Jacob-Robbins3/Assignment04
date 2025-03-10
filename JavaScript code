@@ -1,0 +1,28 @@
+function showHome() {
+    hideAllSections();
+    document.getElementById('home').style.display = 'block';
+}
+
+function showCardShowcase() {
+    hideAllSections();
+    document.getElementById('card-showcase').style.display = 'block';
+}
+
+function showSelling() {
+    hideAllSections();
+    document.getElementById('selling').style.display = 'block';
+}
+
+function showGiveaway() {
+    hideAllSections();
+    document.getElementById('giveaway').style.display = 'block';
+}
+
+function hideAllSections() {
+    const sections = document.querySelectorAll('.content');
+    sections.forEach(section => {
+        section.style.display = 'none';
+    });
+}
+
+window.onload = showHome;
