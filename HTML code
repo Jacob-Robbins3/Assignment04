@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Card Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome To Jacob's Pokemon Cardshop!</h1>
+        <div class="nav-buttons">
+            <button onclick="showHome()">Home</button>
+            <button onclick="showCardShowcase()">Pokedex</button>
+            <button onclick="showSelling()">Selling</button>
+            <button onclick="showGiveaway()">Giveaway</button>
+        </div>
+    </header>
+
+    <div id="home" class="content">
+        <h2>Why did I decide to open up a cardshop?</h2>
+        <p>From a young age I started collecting cards. There was something about getting a pack of cards and opening up the pack to find mystery cards. These cards ranged from sports cards to Pokemon cards. I would take all the cool cards I collected from packs and show them off at school or trade with other kids who had cards. From that day I was inspired and dreamed of owning a cardshop of my own. About as year ago I opeend up my very own card shop and started living my dream. I have been very happy and wouldn't change a thing! I hope you find what you want on my website! Thanks for the support! </p>
+		<h2>What's all on this website?</h2>
+		<p>I have created a pokedex so anyone can see all the pokemon and what type they are, what they are weak to, and more. I am working on creating a pokedev with the first generation pokemon and have only done the first nine but will finish the rest soon. I am also starting to sell some of my big pulls and cards I have been collecting since I was a kid. I think it's time someone else enjoys these cards I've been holding on to for a long time. Keep an eye out for giveaways as I will be giving out free stuff on my social media. You can find my social media links on the giveaway page.</p>
+	</div>		
+
+    <div id="card-showcase" class="content">
+        <h2>Starter Pokemon</h2>
+        <div class="pokemon-card">
+            <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//001.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 100px; height: 100px; margin: 0px; width: 100px;" alt="Bulbasaur | Pokédex" jsname="kn3ccd" aria-hidden="false">
+            <h3>Bulbasaur</h3>
+			<p>#0001</p>
+            <p>Type: Grass/Poison</p>
+        </div>
+        <div class="pokemon-card">
+            <img src="https://static.pokemonpets.com/images/monsters-images-800-800/2-Ivysaur.webp" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 100px; height: 100px; margin: 0px; width: 100px;" alt="Pokemon 2 Ivysaur Pokedex: Evolution, Moves, Location, Stats" jsname="kn3ccd" aria-hidden="false">
+            <h3>Ivysaur</h3>
+			<p>#0002</p>
+            <p>Type: Grass/Poison</p>
+        </div>
+        <div class="pokemon-card">
+            <img src="https://static.pokemonpets.com/images/monsters-images-800-800/3-Venusaur.webp" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 100px; height: 100px; margin: 0px; width: 100px;" alt="Pokemon 3 Venusaur Pokedex: Evolution, Moves, Location, Stats" jsname="kn3ccd" aria-hidden="false">
+            <h3>Venusaur</h3>
+			<p>#0003</p>
+            <p>Type: Grass/Poison</p>
+        </div>
+		<div class="pokemon-card">
+			<img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/004.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 100px; height: 100px; margin: 0px; width: 100px;" alt="Pokédex | Pokemon.com" jsname="kn3ccd" aria-hidden="false">
+			<h3>Charmander</h3>
+			<p>#0004</p>
+			<p>Type: Fire</p>
+		</div>
+		<div class="pokemon-card">
+			<img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/005.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 100px; height: 100px; margin: 0px; width: 100px;" alt="Pokédex | Pokemon.com" jsname="kn3ccd" aria-hidden="false">
+			<h3>Charmeleon</h3>
+			<p>#0005</p>
+			<p>Type: Fire</p>
+		</div>
+		<div class="pokemon-card">
+			<img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 100px; height: 100px; margin: 0px; width: 100px;" alt="Charizard | Pokédex" jsname="kn3ccd" aria-hidden="false">
+			<h3>Charizard</h3>
+			<p>#0006</p>
+			<p>Type: Fire/Flying</p>
+		</div>
+		<div class="pokemon-card">
+			<img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/007.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 100px; height: 100px; margin: 0px; width: 100px;" alt="Pokédex | Pokemon.com" jsname="kn3ccd" aria-hidden="false">
+			<h3>Squirtle</h3>
+			<p>#0007</p>
+			<p>Type: Water</p>
+		</div>
+		<div class="pokemon-card">
+			<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//008.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 100px; height: 100px; margin: 0px; width: 100px;" alt="Wartortle | Pokédex" jsname="kn3ccd" aria-hidden="false">
+			<h3>Wartortle</h3>
+			<p>#0008</p>
+			<p>Type: Water</p>
+		</div>
+		<div class="pokemon-card">
+			<img src="https://static.pokemonpets.com/images/monsters-images-800-800/9-Blastoise.webp" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 100px; height: 100px; margin: 0px; width: 100px;" alt="Pokemon 9 Blastoise Pokedex: Evolution, Moves, Location, Stats" jsname="kn3ccd" aria-hidden="false">
+			<h3>Blastoise</h3>
+			<p>#0009</p>
+			<p>Type: Water</p>
+		</div>
+    </div>
+
+    <div id="selling" class="content">
+        <h2>Pokemon cards for sale!!</h2>
+		<div class="pokemon-card-sell">
+			<img src="https://public.com/wp-content/uploads/2023/01/The-1999-1st-Edition-Holographic-Charizard-Pokemon-Card-e1674909546480.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 400px; height: 500px; margin: 0px; width: 400px;" alt="The 1999 1st Edition Holographic Charizard Pokémon Card: A Deep Dive" jsname="kn3ccd" aria-hidden="false">
+            <h3><mark>1999 Charizard 1st Edition</mark></h3>
+            <p>Pack: Base Set </p>
+            <p>Price: $270,972.75</p>
+			<p>Rarity: Holo</p>
+        </div>
+		<div class="pokemon-card-sell">
+			<img src="https://www.pokemonsite.com/wp-content/uploads/2023/09/Charizard-ex-228-Obsidian-Flames.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 400px; height: 500px; margin: 0px; width: 400px;" alt="Charizard ex - Pokemon Site" jsname="kn3ccd" aria-hidden="false">
+			<h3><mark>Charizad EX 228/197</h3></mark>
+			<p>Pack: Obsidian Flames</p>
+			<p>Price: $24.64</p>
+			<p>Rarity: Hyper Rare</p>
+		</div>
+		<div class="pokemon-card-sell">
+			<img src="https://tcgplayer-cdn.tcgplayer.com/product/246723_in_1000x1000.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 400px; height: 500px; margin: 0px; width: 400px;" alt="Umbreon VMAX (Alternate Art Secret)" jsname="kn3ccd" aria-hidden="false">
+			<h3><mark>Umbreon Vmax 215/203</mark></h3>
+			<p>Pack: Evolving Skies</p>
+			<p>Price: $1,391.58</p>
+			<p>Rarity: Alternate Art Secret</p>
+		</div>
+		<div class="pokemon-card-sell">
+			<img src="https://i.etsystatic.com/43526145/r/il/598447/5666798959/il_fullxfull.5666798959_hfwq.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 400px; height: 500px; margin: 0px; width: 400px;" alt="Pikachu With Grey Felt Hat Van Gogh Custom Pokémon Card Display Frame PSA  Slab Case - Etsy" jsname="kn3ccd" aria-hidden="false">
+			<h3><mark>Pikachu with Grey Felt Hat 085</mark></h3>
+			<p>Pack: None</p>
+			<p>Price: $680</p>
+			<p>Rarity: Promo</p>
+		</div>
+		<div class="pokemon-card-sell">
+			<img src="https://tcgplayer-cdn.tcgplayer.com/product/517048_in_1000x1000.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 400px; height: 500px; margin: 0px; width: 400px;" alt="Zapdos ex - 202/165 - SV: Scarlet &amp; Violet 151 - Pokemon" jsname="kn3ccd" aria-hidden="false">
+			<h3><mark>Zapdos EX 202/165</mark></h3>
+			<p>Pack: S&V 151</p>
+			<p>Price: $63.99</p>
+			<p>Rarity: Special Illustration Rare</p>
+		</div>
+		<div class="pokemon-card-sell">
+			<img src="https://tcgplayer-cdn.tcgplayer.com/product/517045_in_1000x1000.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 400px; height: 500px; margin: 0px; width: 400px;" alt="Charizard ex - 199/165" jsname="kn3ccd" aria-hidden="false">
+			<h3><mark>Charizard EX 199/165</mark></h3>
+			<p>Pack: S&V 151</p>
+			<p>Price: $264.69</p>
+			<p>Rarity: Special Illustration Rare</p>
+		</div>
+		<div class="pokemon-card-sell">
+			<img data-v-1489a800="" src="https://tcgplayer-cdn.tcgplayer.com/product/534919_in_200x200.jpg" data-testid="product-image__container--Mew ex - 232/091-0" alt="Mew ex - 232/091-0" class="v-lazy-image v-lazy-image-loaded" srcset="https://tcgplayer-cdn.tcgplayer.com/product/534919_in_200x200.jpg 200w,https://tcgplayer-cdn.tcgplayer.com/product/534919_in_400x400.jpg 400w,https://tcgplayer-cdn.tcgplayer.com/product/534919_in_600x600.jpg 600w,https://tcgplayer-cdn.tcgplayer.com/product/534919_in_800x800.jpg 800w,https://tcgplayer-cdn.tcgplayer.com/product/534919_in_1000x1000.jpg 1000w">
+			<h3><mark>Mew EX 232/091</mark></h3>
+			<p>Pack: Paldean Fates</p>
+			<p>Price: $382.25</p>
+			<p>Rarity: Special Illustration Rare</p>
+		</div>
+		<div class="pokemon-card-sell">
+			<img data-v-1489a800="" src="https://tcgplayer-cdn.tcgplayer.com/product/497606_in_200x200.jpg" data-testid="product-image__container--Magikarp - 203/193-0" alt="Magikarp - 203/193-0" class="v-lazy-image v-lazy-image-loaded" srcset="https://tcgplayer-cdn.tcgplayer.com/product/497606_in_200x200.jpg 200w,https://tcgplayer-cdn.tcgplayer.com/product/497606_in_400x400.jpg 400w,https://tcgplayer-cdn.tcgplayer.com/product/497606_in_600x600.jpg 600w,https://tcgplayer-cdn.tcgplayer.com/product/497606_in_800x800.jpg 800w,https://tcgplayer-cdn.tcgplayer.com/product/497606_in_1000x1000.jpg 1000w">
+			<h3><mark>Magikarp 203/193></mark></h3>
+			<p>Pack: Paldea Evolved</p>
+			<p>Price: $213.67</p>
+			<p>Rarity: Illustration Rare</p>
+		</div>
+		<div class="pokemon-card-sell">
+			<img data-v-1489a800="" src="https://tcgplayer-cdn.tcgplayer.com/product/250510_in_200x200.jpg" data-testid="product-image__container--Pikachu - 208/S-P (Yu Nagaba)-0" alt="Pikachu - 208/S-P (Yu Nagaba)-0" class="v-lazy-image v-lazy-image-loaded" srcset="https://tcgplayer-cdn.tcgplayer.com/product/250510_in_200x200.jpg 200w,https://tcgplayer-cdn.tcgplayer.com/product/250510_in_400x400.jpg 400w,https://tcgplayer-cdn.tcgplayer.com/product/250510_in_600x600.jpg 600w,https://tcgplayer-cdn.tcgplayer.com/product/250510_in_800x800.jpg 800w,https://tcgplayer-cdn.tcgplayer.com/product/250510_in_1000x1000.jpg 1000w">
+			<h3><mark>Pikachu 208/S-P</mark></h3>
+			<p>Pack: None</p>
+			<p>Price: $39.99</p>
+			<p>Rarity: Promo</p>
+		</div>
+		<p></p>
+		<h1>More coming soon!!!</h1>
+	</div>
+
+    <div id="giveaway" class="content">
+        <h2>Giveaways!</h2>
+        <p>Join the giveaway to win awesome Pokémon cards, Booster Packs, Booster Boxes, Slabs, and more! Participate by following us on any of the following:</p>
+		<a href="https://www.youtube.com/@JacobsCardShop">
+		<ion-icon name="logo-youtube"></ion-icon>
+		</a>
+		<a href="https://www.instagram.com">
+		<ion-icon name="logo-instagram"></ion-icon>
+		</a>
+		<a href="https://x.com/?lang=en">
+		<ion-icon name="logo-twitter"></ion-icon>
+		</a>
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>	
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
