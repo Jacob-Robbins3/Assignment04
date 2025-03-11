@@ -25,7 +25,7 @@
 	</div>		
 
     <div id="card-showcase" class="content">
-        <h2>Starter Pokemon</h2>
+        <h2>Pokedex</h2>
         <div class="pokemon-card">
             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//001.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 100px; height: 100px; margin: 0px; width: 100px;" alt="Bulbasaur | Pokédex" jsname="kn3ccd" aria-hidden="false">
             <h3>Bulbasaur</h3>
